@@ -1,5 +1,6 @@
 class Api::V1::UsersController < ApplicationController
-
+  before_action :authenticate_user!
+  
   # GET /api/v1/users
   def index
     @api_v1_users = User.where('lower(name) LIKE lower(?)', "%#{api_v1_user_params[:name]}%")
