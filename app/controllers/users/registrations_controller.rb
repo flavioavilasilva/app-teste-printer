@@ -1,6 +1,7 @@
 class Users::RegistrationsController < Devise::RegistrationsController
   include RackSessionsFix
   respond_to :json
+  
   private
 
   def respond_with(current_user, _opts = {})
