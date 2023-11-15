@@ -1,24 +1,35 @@
-# README
+# APP-TESTE-PRINTER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Esta aplicacão tem como maior objetivo explorar conhecimentos para o desafio de criação de uma API em Ruby on Rails. Além das rotas padrões do devise (cadastro de usuário, login, logout...), dispõe de end-point simples, onde é possível buscar usuário cadastrado no sistema fazendo a busca por nome. A utilização do sqllite como database, e a não implementação de services ou outros patters no projeto, se dá por conta da simplicidade da solução, não cabendo nesse escopo (Overengineering).
 
-Things you may want to cover:
+Topics:
+- Stack
+- Executando os testes com Rspec
+- Executar a aplicação local
+- Créditos
 
-* Ruby version
+## Stack
+Ruby 3.2.1
+Rails 7.0.8
+Sqlite3
 
-* System dependencies
+## Executando os testes com Rspec
 
-* Configuration
+Para executar os testes com o Rspec, basta executar o seguinte comando na raiz da aplicação:
 
-* Database creation
+```bash
+bundler exec rspec
+```
 
-* Database initialization
+## Executar a aplicação local
 
-* How to run the test suite
+```bash
+bundler exec rails s -p 3001
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Créditos
 
-* Deployment instructions
-
-* ...
+*Flavio Avila*<br>
+flavio.avila.silva@outlook.com<br>
+https://github.com/flavioavilasilva<br>
+https://www.linkedin.com/in/flavio-avila-7775702b/
