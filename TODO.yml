@@ -1,0 +1,4 @@
+# TODO: Instalar o simplecov para acompanhar cobertura dos testes no projeto;
+# TODO: Instalar o rubocop como lint de código para auxiliar em manter padrões de acordo com as boas práticas da comunidade;
+# TODO: Dockerizar a aplicação para ter um ambiente de desenvolvimento mais prático e seguro;
+# TODO: Incluir documentação dos endpoints disponiveis;
